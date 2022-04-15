@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Proyecto 1</title>
+	</head>
+	<body>
+		<h1>Bienvenidos a mi portafolio</h1>
+		<br />
+	<table>
+		<tr>
+			<th>
+				<a href="#">Inicio</a>
+			</th>
+			<th>
+				<a href="#">Servicios</a>
+			</th>
+			<th>
+				<a href="#">Galería</a>
+			</th>	
+			<th>
+				<a href="#">Contacto</a>
+			</th>								
+		</tr>
+	</table>
+
+	<h2><small>Indice</small></h2>
+	<ul>
+		<li><a href="#presentación">Presentación</a></li>
+		<li><a href="#pp">Proyectos personales</a></li>
+		<li><a href="#pf">Proyectos Freelance</a></li>
+		<li><a href="#ppe">Proyectos para empresas</a></li>
+		<li><a href="#cont">Contacto</a></li>
+	</ul>
+
+
+	<p id="presentación"><h1>¿Quién soy?</h1><br>
+		Mi nombre es <b>Orion Alzate</b>, diseñador gráfico con un año de experiencia enfocada en creaciión de contenido <b>audiovisual</b> para redes sociales, branding para marcas digitales, fotografía de producto, y ahora estudiante de desarrollo web.
+		<br>Quiero mostrarte un poco de mi trabajo y de lo que soy capaz de hacer.</p>
+
+	<h2>Portafolio</h2>
+
+	<p id="pp"><b>Proyectos personales</b></p><br>
+
+	<img width="500" src="p01.jpg" alt="p01"><br>
+	<img width="500" src="p02.jpg" alt="p02"><br>
+	<img width="500" src="p03.jpg" alt="p03"><br>
+	<img width="500" src="p04.jpg" alt="p04"><br>
+	<img width="500" src="p05.jpg" alt="p05"><br>
+	
+	<p id="pf"><b>Proyectos Freelance</b></p><br>
+
+	<img width="500" src="in01.png" alt="in01">
+	<img width="300" src="in02.png" alt="in02"><br>
+	<img width="500" src="in03.png" alt="in03"><br>
+	<img width="500" src="in04.png" alt="in04"><br>
+	<img width="500" src="in05 (1).png" alt="in05 (1)">
+	<img width="500" src="in05 (2).png" alt="in05 (2)"><br>
+	<img width="500" src="in06 (1).png" alt="in06 (1)">
+	<img width="500" src="in06.png" alt="in06"><br>
+
+	<p id="ppe"><b>Proyectos para empresas</b></p><br>
+
+	<img width="500" src="l01.jpg" alt="l01"><br>
+	<img width="500" src="l02.jpg" alt="l02"><br>
+	<img width="500" src="l03.jpg" alt="l03"><br>
+	<video width="500" src="l04.mp4" controls></video><br>
+	<img width="500" src="l05.jpg" alt="l05"><br>
+
+	<h3 id="cont">Contacto</h3>
+	<p>Tel: +57 300 010 2552
+		<br>E-mail: Orion.alzate@crehana.com
+		<br>Medellín - Colombia
+		<br>Copiright - Todos los derechos reservados.
+	</p>
+
+	</body>
+</html>
