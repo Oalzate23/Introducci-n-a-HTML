@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+		<title>Proyecto 2 - Formulario</title>
+</head>
+<body>
+	<h1>Encuesta demográfica</h1>
+	<br>
+	<form method="post" action="project2.php">
+		<label for="Nombre">Nombre:</label>
+		<br>
+		<input type="text" name="name" id="Nombre">
+		<br><br>
+		<label for="Apellido">Apellidos:</label>
+		<br>
+		<input type="text" name="lastName" id="Apellido">
+		<br><br>
+		<label for="tipo">Tipo de Documento:</label><br>
+		<select name="Tipo doc" id="tipo">
+			<option value="C.C.">CC</option>
+			<option value="T.I.">T.I.</option>
+			<option value="Passp">Pasaporte</option>
+			<option value="C.E.">Cédula de Extranjería</option>									
+		</select>
+		<br><br>
+		<label for="documento">N° de documento:</label><br>
+		<input type="text" name="documento" id="documento">
+		<br><br>
+		Género:<br>
+		<input type="radio" name="Nivel" id="Masculino">
+		<label for="Masculino">Masculino</label><br>
+		<input type="radio" name="Nivel" id="Femenino">
+		<label for="Femenino">Femenino</label><br>
+		<input type="radio" name="Nivel" id="Prefiero no decirlo">
+		<label for="Prefiero no decirlo">Prefiero no decirlo</label><br>
+		<input type="radio" name="Nivel" id="Otro">
+		<label for="Otro">Otro</label><br>
+		<br>
+		Nivel de Escolaridad:<br>
+		<input type="radio" name="Nivel" id="Bachiller">
+		<label for="Bachiller">Bachiller</label><br>
+		<input type="radio" name="Nivel" id="Técnico/Tecnólogo">
+		<label for="Técnico/Tecnólogo">Técnico/Tecnólogo</label><br>
+		<input type="radio" name="Nivel" id="Pregrado Universitario">
+		<label for="Pregrado Universitario">Pregrado Universitario</label><br>
+		<input type="radio" name="Nivel" id="Master">
+		<label for="Master">Master Universitario</label><br>
+		<br>
+		Seleccione uno o varios electrodomésticos que tenga en su hogar:<br>
+		<input type="checkbox" name="otra" id="1">
+		<label for="1">Nevera</label><br>
+		<input type="checkbox" name="otra" id="2">
+		<label for="2">Lavadora</label><br>
+		<input type="checkbox" name="otra" id="3">
+		<label for="3">Computador</label><br>
+		<input type="checkbox" name="otra" id="4">
+		<label for="4">Televisor</label><br>
+		<label for="otra">¿Qué otros electrodomésticos que tenga en su hogar?</label>
+		<textarea  id="otra"></textarea><br>
+		<br><br><br>
+		<button type="submit">Enviar</button>
+		<input type="button" value="Cancelar">
+	</form>
+</body>
+</html>
